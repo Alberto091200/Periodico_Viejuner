@@ -1,0 +1,102 @@
+
+body{
+    background-color: #FFF8F0;
+    max-width: auto;
+    min-width: auto;
+}
+.lineaarriba{
+    height: 50px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tituloperiodico{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+}
+
+.encabezadotop{
+    display: flex;
+    border: solid 2px grey;
+    height: 60px;
+    justify-content: center;
+}
+
+.encabezadotop ul li{
+    display: inline-flex;
+    align-items: center;
+    margin: 5px 150px;
+    font-weight: 800;
+}
+
+.titulonoticia{
+    column-span: all;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.titulonoticia h1{
+    text-align: center;
+}
+
+.encabezado{
+    text-align: center;
+    column-span: all;
+    
+}
+
+#exorcismo{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px dotted;
+    text-align: justify;
+}
+
+#mono{
+    column-count: 4;
+    column-gap: 40px;
+    column-rule: 2px dotted;
+    text-align: justify;
+}
+
+#niños{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px dotted;
+    text-align: justify;
+}
+
+#planta{
+    column-count: 5;
+    column-gap: 40px;
+    column-rule: 2px dotted;
+    text-align: justify;
+}
+
+#popaux{
+    column-count: 4;
+    column-gap: 40px;
+    column-rule: 2px dotted;
+    text-align: justify;
+}
+
+@media (max-width: 700px){
+.fotoexorcismo, .fotomono, .fotoniños, .fotoplanta, .fotopopaux {
+    float: inline-end;
+    width: 100%;
+    }
+
+    .encabezadotop{
+        display: flex;
+        width: 100%;
+        margin: 0 30px;
+    }
+
+
+}
+
